@@ -1,15 +1,16 @@
 ﻿<Properties StartupConfiguration="{6940596E-7D75-33B4-2E63-F94333CD2821}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/PlayerMovement.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/MenuScript.cs">
     <Files>
       <File FileName="Assets/PlayerCamera.cs" Line="12" Column="39" />
       <File FileName="Assets/PlayerMovement.cs" Line="26" Column="55" />
+      <File FileName="Assets/MenuScript.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="scream or escape" expanded="True">
             <Node name="Assets" expanded="True">
-              <Node name="PlayerMovement.cs" selected="True" />
+              <Node name="MenuScript.cs" selected="True" />
             </Node>
           </Node>
         </State>
@@ -18,7 +19,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="ee227055-9ff6-4e38-901e-57f2521bd3a5" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="04afbfd4-27c4-4660-a771-d777ca684690" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
