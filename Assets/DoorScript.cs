@@ -6,7 +6,7 @@ public class DoorScript : MonoBehaviour
 {
 
     public float restPosition = 0;
-    public float pressedPosition = 45;
+    public float pressedPosition = -45;
     public float hitstrength = 10000;
     public float flipperDamper = 150;
 
@@ -30,6 +30,11 @@ public class DoorScript : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Space))
         {
+            var motor = hinge.motor;
+            motor.force = 10000;
+            motor.targetVelocity = -90;
+            hinge.motor = motor;
+            hinge.useMotor = true;
             spring.targetPosition = pressedPosition;
             Debug.Log("Worked");
             
