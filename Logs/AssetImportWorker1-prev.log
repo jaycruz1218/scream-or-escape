@@ -11,17 +11,22 @@ Using pre-set license
 Pro License: YES
 
 COMMAND LINE ARGUMENTS:
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 /Applications/2021.3.9f1/Unity.app/Contents/MacOS/Unity
 =======
 /Users/game5-20/Desktop/2021.3.9f1/Unity.app/Contents/MacOS/Unity
 >>>>>>> Stashed changes
+=======
+/Users/game5-20/Desktop/2021.3.9f1/Unity.app/Contents/MacOS/Unity
+>>>>>>> main
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker1
 -projectPath
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 /Users/game5/Documents/GitHub/scream-or-escape
 -logFile
@@ -39,6 +44,15 @@ Logs/AssetImportWorker1.log
 Successfully changed project path to: /Users/game5-20/Desktop/2021.3.9f1/scream-or-escape
 Could not lock editor preferences. Preferences updates for this instance of Unity will not be saved./Users/game5-20/Desktop/2021.3.9f1/scream-or-escape
 >>>>>>> Stashed changes
+=======
+/Users/game5-20/Desktop/2021.3.9f1/scream-or-escape
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+55396
+Successfully changed project path to: /Users/game5-20/Desktop/2021.3.9f1/scream-or-escape
+/Users/game5-20/Desktop/2021.3.9f1/scream-or-escape
+>>>>>>> main
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -68,6 +82,7 @@ Could not lock editor preferences. Preferences updates for this instance of Unit
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 Refreshing native plugins compatible for Editor in 75.40 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -76,11 +91,17 @@ Initialize engine version: 2021.3.9f1 (ad3870b89536)
 [Subsystems] Discovering subsystems at path /Users/game5/Documents/GitHub/scream-or-escape/Assets
 =======
 Refreshing native plugins compatible for Editor in 70.73 ms, found 2 plugins.
+=======
+Refreshing native plugins compatible for Editor in 83.49 ms, found 2 plugins.
+>>>>>>> main
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.9f1 (ad3870b89536)
 [Subsystems] Discovering subsystems at path /Users/game5-20/Desktop/2021.3.9f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/game5-20/Desktop/2021.3.9f1/scream-or-escape/Assets
+<<<<<<< HEAD
 >>>>>>> Stashed changes
+=======
+>>>>>>> main
 GfxDevice: creating device client; threaded=0; jobified=0
 iMac preferred device: AMD Radeon Pro 5500 XT (high power)
 Metal devices available: 1
@@ -88,6 +109,7 @@ Metal devices available: 1
 Using device AMD Radeon Pro 5500 XT (high power)
 Initializing Metal device caps: AMD Radeon Pro 5500 XT
 Initialize mono
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 Mono path[0] = '/Applications/2021.3.9f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/2021.3.9f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
@@ -123,11 +145,30 @@ Domain Reload Profiling:
 	ReloadAssembly (615ms)
 		BeginReloadAssembly (53ms)
 >>>>>>> Stashed changes
+=======
+Mono path[0] = '/Users/game5-20/Desktop/2021.3.9f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Users/game5-20/Desktop/2021.3.9f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Users/game5-20/Desktop/2021.3.9f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56913
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Users/game5-20/Desktop/2021.3.9f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000865 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 78.16 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.641 seconds
+Domain Reload Profiling:
+	ReloadAssembly (657ms)
+		BeginReloadAssembly (58ms)
+>>>>>>> main
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 		EndReloadAssembly (444ms)
 			LoadAssemblies (57ms)
@@ -157,12 +198,29 @@ Domain Reload Profiling:
 				ProcessInitializeOnLoadAttributes (134ms)
 				ProcessInitializeOnLoadMethodAttributes (43ms)
 >>>>>>> Stashed changes
+=======
+		EndReloadAssembly (485ms)
+			LoadAssemblies (57ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (119ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (274ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (78ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (143ms)
+				ProcessInitializeOnLoadMethodAttributes (45ms)
+>>>>>>> main
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 Registered in 0.002419 seconds.
 Begin MonoManager ReloadAssembly
@@ -190,10 +248,25 @@ Domain Reload Profiling:
 	ReloadAssembly (996ms)
 		BeginReloadAssembly (100ms)
 >>>>>>> Stashed changes
+=======
+Registered in 0.002484 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/game5-20/Desktop/2021.3.9f1/scream-or-escape/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/game5-20/Desktop/2021.3.9f1/scream-or-escape/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.063 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1064ms)
+		BeginReloadAssembly (103ms)
+>>>>>>> main
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 			CreateAndSetChildDomain (34ms)
 		EndReloadAssembly (811ms)
@@ -203,10 +276,21 @@ Domain Reload Profiling:
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (58ms)
 			SetupLoadedEditorAssemblies (345ms)
+=======
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (842ms)
+			LoadAssemblies (64ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (314ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (355ms)
+>>>>>>> main
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
+<<<<<<< HEAD
 				BeforeProcessingInitializeOnLoad (76ms)
 				ProcessInitializeOnLoadAttributes (237ms)
 				ProcessInitializeOnLoadMethodAttributes (26ms)
@@ -227,6 +311,11 @@ Domain Reload Profiling:
 				ProcessInitializeOnLoadAttributes (229ms)
 				ProcessInitializeOnLoadMethodAttributes (27ms)
 >>>>>>> Stashed changes
+=======
+				BeforeProcessingInitializeOnLoad (77ms)
+				ProcessInitializeOnLoadAttributes (245ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+>>>>>>> main
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -234,6 +323,7 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 Launching external process: /Applications/2021.3.9f1/Unity.app/Contents/Tools/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
@@ -1043,6 +1133,16 @@ Unloading 27 unused Assets / (95.3 KB). Loaded Objects now: 3838.
 Memory consumption went from 230.1 MB to 230.0 MB.
 Total: 2.831905 ms (FindLiveObjects: 0.263952 ms CreateObjectMapping: 0.246223 ms MarkObjects: 2.229879 ms  DeleteObjects: 0.091317 ms)
 >>>>>>> Stashed changes
+=======
+Launching external process: /Users/game5-20/Desktop/2021.3.9f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3806 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (163.8 KB). Loaded Objects now: 4262.
+Memory consumption went from 255.2 MB to 255.1 MB.
+Total: 3.105733 ms (FindLiveObjects: 0.263313 ms CreateObjectMapping: 0.234955 ms MarkObjects: 2.464260 ms  DeleteObjects: 0.142673 ms)
+>>>>>>> main
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
