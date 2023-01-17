@@ -14,6 +14,8 @@ public class DoorScript : MonoBehaviour
 
     private HingeJoint hinge;
 
+    public bool doorOpened = false;
+
     void Start()
     {
         hinge = GetComponent<HingeJoint>();
@@ -37,6 +39,8 @@ public class DoorScript : MonoBehaviour
             hinge.useMotor = true;
             spring.targetPosition = pressedPosition;
             Debug.Log("Worked");
+
+            doorOpened = true;
             
         }
 

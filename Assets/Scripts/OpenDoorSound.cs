@@ -4,17 +4,23 @@ using UnityEngine;
 
 public class OpenDoorSound : MonoBehaviour
 {
-    AudioSource openSound;
+    DoorScript doorScript;
+    AudioSource door;
+    public AudioClip openSound;
     // Start is called before the first frame update
     void Start()
     {
-        openSound = GetComponent<AudioSource>();
+        door = GetComponent<AudioSource>();
+        doorScript = GetComponent<DoorScript>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(openSound == true)
-        openSound.Play();
+        if(doorScript.doorOpened == true)
+        {
+            door.PlayOneShot(openSound, 0.7F);
+        }
+        
     }
 }
