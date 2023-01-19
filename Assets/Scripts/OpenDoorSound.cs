@@ -19,7 +19,7 @@ public class OpenDoorSound : MonoBehaviour
     {
         if(doorScript.doorOpened == true)
         {
-            door.PlayOneShot(openSound, 0.7F);
+            door.PlayOneShot(openSound, 0.2F);
         }
         
     }
