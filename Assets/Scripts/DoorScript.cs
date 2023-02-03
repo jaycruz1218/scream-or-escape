@@ -30,7 +30,7 @@ public class DoorScript : MonoBehaviour
         spring.spring = hitstrength;
         spring.damper = flipperDamper;
 
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetMouseButtonDown(0))
         {
             var motor = hinge.motor;
             motor.force = 10000;
