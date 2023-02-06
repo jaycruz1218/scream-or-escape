@@ -8,9 +8,6 @@ public class EnemyScript : MonoBehaviour
     public float speed;
      bool playerInSight;
 
-
-
-
     // Start is called before the first frame update
     void Start()
     {
