@@ -16,6 +16,8 @@ public class DoorScript : MonoBehaviour
 
     public bool doorOpened = false;
 
+    private bool doorDistance = false;
+
     void Start()
     {
         hinge = GetComponent<HingeJoint>();
@@ -30,7 +32,7 @@ public class DoorScript : MonoBehaviour
         spring.spring = hitstrength;
         spring.damper = flipperDamper;
 
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0) && doorDistance)
         {
             var motor = hinge.motor;
             motor.force = 10000;
@@ -50,6 +52,25 @@ public class DoorScript : MonoBehaviour
         // }
         hinge.spring = spring;
         hinge.useLimits = true;
+
+    }
+
+    void FixedUpdate()
+    {
+        RaycastHit hit;
+        if (Physics.Raycast(transform.position , transform.TransformDirection(Vector3.back), out hit, 5.0f))
+        {
+            Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.back) * hit.distance, Color.yellow);
+            Debug.Log("Did Hit");
+            doorDistance = true;
+
+        }
+        else
+        {
+            Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.back) * 1000, Color.white);
+            Debug.Log("Did not Hit");
+            doorDistance = false;
+        }
 
     }
 }
