@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 2365
     height: 1302
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Project
   m_RootView: {fileID: 7}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -101,7 +101,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 18
+  controlID: 49
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -153,7 +153,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 17
+  controlID: 48
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -228,7 +228,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 16
+  controlID: 47
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -363,10 +363,10 @@ MonoBehaviour:
     m_SaveData: []
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: b2840000
-      m_LastClickedID: 33970
-      m_ExpandedIDs: 7aecffff5eedffffdaeeffffe6f0ffff56f2ffffc6f3ffffbef4ffff5ef6ffffb2f6ffff82f7ffff4af8ffff30fbffff765f0000e46900007e870000
+      scrollPos: {x: 0, y: 32}
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 8cddffff22f6ffffe8faffff625f0000a45f0000de60000072610000a6610000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -472,36 +472,36 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: /Users/game5-20/Desktop/2021.3.9f1/scream-or-escape
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: c0610000
-    m_LastClickedID: 25024
-    m_ExpandedIDs: 000000001861000000ca9a3b
+    m_SelectedIDs: a6640000
+    m_LastClickedID: 25766
+    m_ExpandedIDs: 00000000a664000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: Materials Folder
+      m_OriginalName: Materials Folder
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 25924
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 5}
     m_SearchString: 
@@ -515,7 +515,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000018610000
+    m_ExpandedIDs: 00000000a6640000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -888,9 +888,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -7.5555406, y: 2.840544, z: -7.243659}
+    m_Target: {x: -15.093093, y: -1.0851167, z: -11.818967}
     speed: 2
-    m_Value: {x: -7.5555406, y: 2.840544, z: -7.243659}
+    m_Value: {x: -15.093093, y: -1.0851167, z: -11.818967}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -937,13 +937,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.05439743, y: -0.7006216, z: 0.05371185, w: -0.70982903}
+    m_Target: {x: 0.39103594, y: -0.031190624, z: 0.013260574, w: 0.9197544}
     speed: 2
-    m_Value: {x: -0.054381877, y: -0.7004213, z: 0.053696495, w: -0.7096261}
+    m_Value: {x: 0.39386532, y: -0.025638634, z: 0.010991068, w: 0.91874474}
   m_Size:
-    m_Target: 3.8361444
+    m_Target: 6.812102
     speed: 2
-    m_Value: 3.599008
+    m_Value: 6.456163
   m_Ortho:
     m_Target: 0
     speed: 2
