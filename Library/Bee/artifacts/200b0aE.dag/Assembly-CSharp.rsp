@@ -358,6 +358,8 @@
 "Assets/Scripts/DoorScript.cs"
 "Assets/Scripts/EnemyScript.cs"
 "Assets/Scripts/FootStep.cs"
+"Assets/Scripts/GameManager.cs"
+"Assets/Scripts/Key.cs"
 "Assets/Scripts/MenuScript.cs"
 "Assets/Scripts/OpenDoorSound.cs"
 "Assets/Scripts/PlayerCamera.cs"
