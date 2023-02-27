@@ -6,7 +6,7 @@ public class EnemyScript : MonoBehaviour
 {
     public Transform playerLocation;
     public float speed;
-     bool playerInSight;
+     bool playerInSight = true;
 
 
 
@@ -27,7 +27,7 @@ public class EnemyScript : MonoBehaviour
         }
         else if (!playerInSight)
         {
-
+            transform.position = transform.position;
         }
     }
 }
