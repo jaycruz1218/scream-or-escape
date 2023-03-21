@@ -358,6 +358,7 @@
 "Assets/Scripts/DeathBox.cs"
 "Assets/Scripts/DoorScript.cs"
 "Assets/Scripts/EnemyScript.cs"
+"Assets/Scripts/EquipWeapon.cs"
 "Assets/Scripts/FootStep.cs"
 "Assets/Scripts/GameManager.cs"
 "Assets/Scripts/Key.cs"
