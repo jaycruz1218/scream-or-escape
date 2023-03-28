@@ -7,6 +7,7 @@ public class PlayerMovement : MonoBehaviour
     public GameManager gameManager;
     public CharacterController controller;
     public float speed = 12f;
+    public float secspeed = 12f;
      [SerializeField] float gravityModifer;
     Rigidbody rb;
 
@@ -35,7 +36,12 @@ public class PlayerMovement : MonoBehaviour
 
         controller.SimpleMove(movement);
 
+        if(Input.GetKeyDown(KeyCode.Z))
+        {
 
+        
+        
+        }
 
 
        
