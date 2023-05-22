@@ -50542,6 +50542,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 256104046073710546, guid: ca15c468d2fae4a1fa53e0110f91fd4d, type: 3}
+      propertyPath: m_Intensity
+      value: 10.38
+      objectReference: {fileID: 0}
     - target: {fileID: 256104046073710548, guid: ca15c468d2fae4a1fa53e0110f91fd4d, type: 3}
       propertyPath: m_IsActive
       value: 0
