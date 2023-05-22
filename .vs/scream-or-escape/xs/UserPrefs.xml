@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{4D326CBF-454C-DBC6-E5E4-634F57E13B28}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/EnemyScript.cs">
+    <Files>
+      <File FileName="Assets/Scripts/EnemyScript.cs" Line="21" Column="26" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="scream-or-escape" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="EnemyScript.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="965ad9c3-68cc-4582-912a-e8d51464a705" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
