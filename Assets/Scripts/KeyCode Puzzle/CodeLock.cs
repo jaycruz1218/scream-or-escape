@@ -10,7 +10,7 @@ public class CodeLock : MonoBehaviour
     public string code = "";
     public string attemptedCode;
 
-    public transform toOpen;
+    public Transform toOpen;
 
     private void Start()
 {
@@ -31,7 +31,7 @@ IEnumerator Open()
 {
     toOpen.Rotate(new Vector3(0,90, 0), Space.World);
 
-    yeild return new WaitforSeconds(4);
+    yield return new WaitForSeconds(4);
 
     toOpen.Rotate(new Vector3(0,-90, 0), Space.World);
 }

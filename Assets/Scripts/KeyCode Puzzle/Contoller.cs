@@ -22,15 +22,15 @@ public class Contoller : MonoBehaviour
      void CheckHitObj()
     {
         RaycastHit hit;
-        Ray ray = Camera.main.ScreenPointToPlay(Input.mousePosition);
+        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
 
         if(Physics.Raycast(ray, out hit, reachRange))
         {
-            codelock = hit.tranform.gameObject.GetComponentInParent<CodeLock>();
+            codelock = hit.transform.gameObject.GetComponentInParent<CodeLock>();
             if(codelock != null)
             {
                 string value = hit.transform.name;
-                codelock.Setvalue(value);
+                codelock.SetValue(value);
             }
         }
     }
