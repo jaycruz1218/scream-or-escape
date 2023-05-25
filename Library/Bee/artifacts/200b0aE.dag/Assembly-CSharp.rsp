@@ -356,6 +356,7 @@
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/200b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Keypad/Script/Playsound.cs"
+"Assets/Scripts/Button puzzle/DoorController.cs"
 "Assets/Scripts/DeathBox.cs"
 "Assets/Scripts/DoorScript.cs"
 "Assets/Scripts/EnemyScript.cs"
