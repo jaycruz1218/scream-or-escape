@@ -11,10 +11,13 @@ public class PlayerMovement : MonoBehaviour
      [SerializeField] float gravityModifer;
     Rigidbody rb;
 
+    private GameObject playerCamera;
+
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody>();
+        playerCamera = GameObject.Find("Main Camera");
     }
 
     // Update is called once per frame
@@ -36,11 +39,20 @@ public class PlayerMovement : MonoBehaviour
 
         controller.SimpleMove(movement);
 
-        if(Input.GetKeyDown(KeyCode.Z))
+        if(Input.GetKey(KeyCode.Z))
         {
+            speed = 18;
+        }else
+        {
+            speed = 12;
+        }
 
-        
-        
+        if(Input.GetKeyDown(KeyCode.LeftShift))
+        {
+            Debug.Log("IsWorking");
+           var playerCameraPosition = playerCamera.transform.position;
+
+           playerCameraPosition.y = 0;
         }
 
 
