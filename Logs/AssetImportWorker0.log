@@ -22,7 +22,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57325
+62865
 Successfully changed project path to: /Users/game5-20/Desktop/2021.3.9f1/scream-or-escape
 /Users/game5-20/Desktop/2021.3.9f1/scream-or-escape
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -54,7 +54,7 @@ Successfully changed project path to: /Users/game5-20/Desktop/2021.3.9f1/scream-
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 77.16 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 88.56 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.9f1 (ad3870b89536)
 [Subsystems] Discovering subsystems at path /Users/game5-20/Desktop/2021.3.9f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -69,74 +69,74 @@ Initialize mono
 Mono path[0] = '/Users/game5-20/Desktop/2021.3.9f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Users/game5-20/Desktop/2021.3.9f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Users/game5-20/Desktop/2021.3.9f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56947
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56956
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Users/game5-20/Desktop/2021.3.9f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.000808 seconds.
+Registered in 0.000814 seconds.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 73.46 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 74.74 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.620 seconds
+- Completed reload, in  0.633 seconds
 Domain Reload Profiling:
-	ReloadAssembly (620ms)
+	ReloadAssembly (633ms)
 		BeginReloadAssembly (57ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (452ms)
+		EndReloadAssembly (463ms)
 			LoadAssemblies (57ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (120ms)
+			SetupTypeCache (123ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (29ms)
-			SetupLoadedEditorAssemblies (257ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (262ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (73ms)
+				RefreshPlugins (75ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (135ms)
-				ProcessInitializeOnLoadMethodAttributes (41ms)
+				ProcessInitializeOnLoadAttributes (137ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002791 seconds.
+Registered in 0.003396 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/game5-20/Desktop/2021.3.9f1/scream-or-escape/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/game5-20/Desktop/2021.3.9f1/scream-or-escape/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.026 seconds
+- Completed reload, in  1.083 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1027ms)
-		BeginReloadAssembly (101ms)
+	ReloadAssembly (1084ms)
+		BeginReloadAssembly (100ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (26ms)
-		EndReloadAssembly (810ms)
-			LoadAssemblies (68ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (867ms)
+			LoadAssemblies (103ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (294ms)
+			SetupTypeCache (304ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (56ms)
-			SetupLoadedEditorAssemblies (350ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (355ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (74ms)
-				ProcessInitializeOnLoadAttributes (243ms)
+				BeforeProcessingInitializeOnLoad (77ms)
+				ProcessInitializeOnLoadAttributes (246ms)
 				ProcessInitializeOnLoadMethodAttributes (27ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
@@ -147,12 +147,12 @@ Platform modules already initialized, skipping
 Worker process is ready to serve import requests
 Launching external process: /Users/game5-20/Desktop/2021.3.9f1/Unity.app/Contents/Tools/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
-Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3819 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 30 unused Assets / (171.5 KB). Loaded Objects now: 4290.
-Memory consumption went from 269.3 MB to 269.1 MB.
-Total: 2.940747 ms (FindLiveObjects: 0.262585 ms CreateObjectMapping: 0.233722 ms MarkObjects: 2.286772 ms  DeleteObjects: 0.157096 ms)
+Unloading 3820 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (179.7 KB). Loaded Objects now: 4291.
+Memory consumption went from 269.1 MB to 269.0 MB.
+Total: 3.359956 ms (FindLiveObjects: 0.321834 ms CreateObjectMapping: 0.384244 ms MarkObjects: 2.490103 ms  DeleteObjects: 0.163203 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -166,52 +166,25 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 683570.190359 seconds.
-  path: Assets/Prefabs/Fence.blend
-  artifactKey: Guid(4807fd9c5246b46a58ec7b61de009e30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Fence.blend using Guid(4807fd9c5246b46a58ec7b61de009e30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '589e46d1e9c1679a8f269c99263ae220') in 0.714482 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 105.501035 seconds.
-  path: Assets/Prefabs/Fence.blend
-  artifactKey: Guid(4807fd9c5246b46a58ec7b61de009e30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Fence.blend using Guid(4807fd9c5246b46a58ec7b61de009e30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '269180f6fd88148adc42b01816a70572') in 0.090670 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 84.210883 seconds.
+  Time since last request: 763492.762237 seconds.
   path: Assets/Materials Folder/Light brown.mat
   artifactKey: Guid(e7d69a7c41889485db91b051d5427727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials Folder/Light brown.mat using Guid(e7d69a7c41889485db91b051d5427727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '848a367139a364feb23cbf4c791dc19b') in 0.581184 seconds 
+Start importing Assets/Materials Folder/Light brown.mat using Guid(e7d69a7c41889485db91b051d5427727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b72f0f9c75b8af9f9ad26a4ba4422f60') in 1.431354 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 69.075620 seconds.
-  path: Assets/Keypad/Textures/1.png
-  artifactKey: Guid(6b1d3aa4c950b4e219ace11602bac08a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Keypad/Textures/1.png using Guid(6b1d3aa4c950b4e219ace11602bac08a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8982d6deb3494119f3d513a292dc91ba') in 1.251865 seconds 
+  Time since last request: 4.560764 seconds.
+  path: Assets/Prefabs/Furniture.obj
+  artifactKey: Guid(06215c7a446d647d8869ad03eadd4774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Furniture.obj using Guid(06215c7a446d647d8869ad03eadd4774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ee21e91fcc2fc28803dfa7376743b38') in 3.544082 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Packages/com.unity.probuilder/Content/Icons/Toolbar/AltButton_Hover.png
-  artifactKey: Guid(d4f4647229a9f47a3b8739dad2c59db5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.probuilder/Content/Icons/Toolbar/AltButton_Hover.png using Guid(d4f4647229a9f47a3b8739dad2c59db5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79d4c6788c362fe6351125a1e6519f2e') in 0.009092 seconds 
+  Time since last request: 387.100458 seconds.
+  path: Assets/Prefabs/tray full of equipment.mtl
+  artifactKey: Guid(2e4d31d7bda394d27bc108024d95fadd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/tray full of equipment.mtl using Guid(2e4d31d7bda394d27bc108024d95fadd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99a8025c3fb2d13c85c21d44c0315c52') in 0.231670 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Packages/com.unity.probuilder/Content/Icons/Toolbar/AltButton_Normal.png
-  artifactKey: Guid(c175d9b0ccfa2428ea936c9c6b654bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.probuilder/Content/Icons/Toolbar/AltButton_Normal.png using Guid(c175d9b0ccfa2428ea936c9c6b654bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '208c7c6162d9df1912ee237e91c8a7c7') in 0.007703 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Packages/com.unity.probuilder/Content/Icons/Toolbar/AltButton_Pressed.png
-  artifactKey: Guid(2306494ea7af64c58819a58d4396773f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.probuilder/Content/Icons/Toolbar/AltButton_Pressed.png using Guid(2306494ea7af64c58819a58d4396773f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6abebe9316537ce0a4c8997a7b6b7862') in 0.007659 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 12.190394 seconds.
-  path: Packages/com.unity.probuilder/Content/Icons/Toolbar/Bezier_Free.png
-  artifactKey: Guid(da4df1da6f6124e98950375683b8fe1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.probuilder/Content/Icons/Toolbar/Bezier_Free.png using Guid(da4df1da6f6124e98950375683b8fe1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d32e9aebd9c9062a140372ec9393e9e') in 0.007171 seconds 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
+  Time since last request: 728.623147 seconds.
+  path: Assets/Prefabs/Medical Set.blend
+  artifactKey: Guid(0b0eeedbc93ac45c59a4818448c7460d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Medical Set.blend using Guid(0b0eeedbc93ac45c59a4818448c7460d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d4bc82170d22b6fb06c5b91d0c0605c') in 0.834216 seconds 
