@@ -6,6 +6,8 @@ public class Contoller : MonoBehaviour
 {
     CodeLock codelock;
 
+    DoorController doorController;
+
     int reachRange = 100;
  
    
@@ -32,6 +34,20 @@ public class Contoller : MonoBehaviour
                 string value = hit.transform.name;
                 codelock.SetValue(value);
             }
+
+            doorController = hit.transform.gameObject.GetComponent<DoorController>();
+            if(doorController != null)
+            {
+                if( hit.transform.gameObject.tag == "Button 1")
+                {
+                    doorController.SetTimer();
+                }
+                if( hit.transform.gameObject.tag == "Button 2")
+                {
+                    //doorController.But();
+                }
+            }
+
         }
     }
 }

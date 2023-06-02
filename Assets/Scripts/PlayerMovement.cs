@@ -13,6 +13,9 @@ public class PlayerMovement : MonoBehaviour
 
     private GameObject playerCamera;
 
+    bool isCrouching = false;
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -48,11 +51,22 @@ public class PlayerMovement : MonoBehaviour
         }
 
         if(Input.GetKeyDown(KeyCode.LeftShift))
-        {
-            Debug.Log("IsWorking");
-           var playerCameraPosition = playerCamera.transform.position;
+        {   
+            if(!isCrouching)
+            {
+                isCrouching = true;
+                controller.height = 1.0f;
+            }else if(isCrouching)
+            {
+                isCrouching = false;
+                controller.height = 2.0f;
+            }
+            
+            
 
-           playerCameraPosition.y = 0;
+
+
+
         }
 
 
