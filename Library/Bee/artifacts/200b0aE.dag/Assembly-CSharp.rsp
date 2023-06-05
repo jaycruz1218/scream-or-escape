@@ -366,6 +366,7 @@
 "Assets/Scripts/EquipWeapon.cs"
 "Assets/Scripts/FootStep.cs"
 "Assets/Scripts/GameManager.cs"
+"Assets/Scripts/JumpScare.cs"
 "Assets/Scripts/Key.cs"
 "Assets/Scripts/KeyCode Puzzle/CodeLock.cs"
 "Assets/Scripts/KeyCode Puzzle/Contoller.cs"
