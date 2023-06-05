@@ -33,15 +33,6 @@ public class PlayerMovement : MonoBehaviour
         
 
         
-
-
-       Vector3 moveX = transform.right * x * speed;
-        Vector3 moveZ = transform.forward * z * speed;
-
-        Vector3 movement = moveX + moveZ;
-
-        controller.SimpleMove(movement);
-
         if(Input.GetKey(KeyCode.Z))
         {
             speed = 18;
@@ -56,21 +47,21 @@ public class PlayerMovement : MonoBehaviour
             {
                 isCrouching = true;
                 controller.height = 1.0f;
+                speed = 8;
             }else if(isCrouching)
             {
                 isCrouching = false;
                 controller.height = 2.0f;
+                speed = 12;
             }
-            
-            
-
-
-
-
         }
 
+       Vector3 moveX = transform.right * x * speed;
+        Vector3 moveZ = transform.forward * z * speed;
 
-       
+        Vector3 movement = moveX + moveZ;
+
+        controller.SimpleMove(movement);       
        
     }
 }
