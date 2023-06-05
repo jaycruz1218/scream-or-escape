@@ -10,7 +10,7 @@ public class Contoller : MonoBehaviour
 
     int reachRange = 100;
  
-   
+       public AudioSource Click;
 
     // Update is called once per frame
     void Update()
@@ -18,6 +18,7 @@ public class Contoller : MonoBehaviour
         if(Input.GetMouseButtonDown(0))
         {
             CheckHitObj();
+            
         }
     }
     
@@ -30,23 +31,13 @@ public class Contoller : MonoBehaviour
         {
             codelock = hit.transform.gameObject.GetComponentInParent<CodeLock>();
             if(codelock != null)
-            {
+            {Click.Play();
                 string value = hit.transform.name;
                 codelock.SetValue(value);
             }
 
-            doorController = hit.transform.gameObject.GetComponent<DoorController>();
-            if(doorController != null)
-            {
-                if( hit.transform.gameObject.tag == "Button 1")
-                {
-                    doorController.SetTimer();
-                }
-                if( hit.transform.gameObject.tag == "Button 2")
-                {
-                    //doorController.But();
-                }
-            }
+         
+            
 
         }
     }

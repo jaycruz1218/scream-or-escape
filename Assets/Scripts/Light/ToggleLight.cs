@@ -7,12 +7,12 @@ public class ToggleLight : MonoBehaviour
    public GameObject LightScorce;
 
    private bool isOn = false;
-
+    public AudioSource Click;
 
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKey(KeyCode.E))
+        if(Input.GetKeyDown(KeyCode.E))
         {
             if(!isOn)
             {
@@ -21,18 +21,19 @@ public class ToggleLight : MonoBehaviour
             }
             else
             {
+               
                 Invoke("LightOff", 0.3f);
             }
         }
     }
 
     void LightOn()
-    {
+    { Click.Play();
         LightScorce.SetActive(true);
         isOn = true;
     }
     void LightOff()
-    {
+    {Click.Play();
         LightScorce.SetActive(false);
         isOn = false;
     }

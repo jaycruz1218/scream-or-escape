@@ -12,9 +12,12 @@ public class CodeLock : MonoBehaviour
 
     public Transform toOpen;
 
+    public AudioSource wrongCode;
+    
     private void Start()
 {
     codeLength = code.Length;
+  
 }
     void CheckCode()
     {
@@ -25,6 +28,7 @@ public class CodeLock : MonoBehaviour
         else
         {
             Debug.Log("Wrong Code");
+            wrongCode.Play();
         }
     }
 IEnumerator Open()
