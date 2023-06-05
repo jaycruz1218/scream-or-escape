@@ -15,8 +15,9 @@ public class ButtonPuzzle0 : MonoBehaviour
 
     private void Start()
 {
-    
+    Debug.Log(coLength);
     coLength = code.Length;
+    Debug.Log(code.Length);
 }
     void CheckCode()
     {
@@ -32,13 +33,13 @@ public class ButtonPuzzle0 : MonoBehaviour
     }
 IEnumerator Open()
 {
-    Vector3 opendoor = toOpen.transform.position;
+    
     Debug.Log("Door should open");
-    opendoor.y = 20f;
+    toOpen.Rotate(new Vector3(-90,0, 0), Space.World);
 
     yield return new WaitForSeconds(4);
 
-    opendoor.y = 20f;
+    toOpen.Rotate(new Vector3(90,0, 0), Space.World);
 }
   
     public void SetValue(string value)
@@ -49,7 +50,7 @@ IEnumerator Open()
         {
             attemptedCode += value;
         }
-        if(placeInCod == 3)
+        if(placeInCod == 4)
         {
             CheckCode();
 

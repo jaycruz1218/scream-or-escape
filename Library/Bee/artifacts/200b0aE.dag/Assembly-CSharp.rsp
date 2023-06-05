@@ -369,6 +369,7 @@
 "Assets/Scripts/Key.cs"
 "Assets/Scripts/KeyCode Puzzle/CodeLock.cs"
 "Assets/Scripts/KeyCode Puzzle/Contoller.cs"
+"Assets/Scripts/Light/ToggleLight.cs"
 "Assets/Scripts/MenuScript.cs"
 "Assets/Scripts/OpenDoorSound.cs"
 "Assets/Scripts/PickUpFlashlight.cs"
