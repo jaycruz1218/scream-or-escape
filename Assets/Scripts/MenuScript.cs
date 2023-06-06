@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class MenuScript : MonoBehaviour
 {
+    public AudioSource cli;
     // Start is called before the first frame update
     void Start()
     {
@@ -24,6 +25,7 @@ public class MenuScript : MonoBehaviour
 
     public void QuitGame()
     {
+        cli.Play();
         Application.Quit();
         Debug.Log("Quit");
     }

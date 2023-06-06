@@ -6,6 +6,8 @@ public class Objective : MonoBehaviour
 {
     public GameObject PickUpText;
 
+    public AudioSource ob;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -23,6 +25,7 @@ public class Objective : MonoBehaviour
     }
     IEnumerator Open()
 {
+    ob.Play();
     PickUpText.SetActive(true); 
 Debug.Log("On");
      yield return new WaitForSeconds(4);

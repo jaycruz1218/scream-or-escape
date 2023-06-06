@@ -13,6 +13,11 @@ public class ButtonPuzzle0 : MonoBehaviour
 
     public Transform toOpen;
 
+    
+    public AudioSource bad;
+    public AudioSource correct;
+    public AudioSource wron;
+
     private void Start()
 {
     Debug.Log(coLength);
@@ -22,13 +27,14 @@ public class ButtonPuzzle0 : MonoBehaviour
     void CheckCode()
     {
         if(attemptedCode == code)
-        {
+        {correct.Play();
             Debug.Log("Isopen");
                 StartCoroutine(Open());
         }
         else
         {
             Debug.Log("Wrong Code");
+            wron.Play();
         }
     }
 IEnumerator Open()
@@ -40,6 +46,7 @@ IEnumerator Open()
     yield return new WaitForSeconds(4);
 
     toOpen.Rotate(new Vector3(90,0, 0), Space.World);
+    bad.Play();
 }
   
     public void SetValue(string value)

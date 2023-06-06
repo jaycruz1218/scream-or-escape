@@ -6,7 +6,7 @@ public class Contollerr : MonoBehaviour
 {
     ButtonPuzzle0 buttonPuzzle;
 
-    
+    public AudioSource Click;
    
  
    
@@ -29,7 +29,7 @@ public class Contollerr : MonoBehaviour
         {
             buttonPuzzle= hit.transform.gameObject.GetComponentInParent<ButtonPuzzle0>();
             if(buttonPuzzle != null)
-            {
+            {Click.Play();
                 string value = hit.transform.name;
                 buttonPuzzle.SetValue(value);
             }

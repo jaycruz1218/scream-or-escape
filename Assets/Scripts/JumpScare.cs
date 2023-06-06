@@ -7,7 +7,7 @@ public class JumpScare : MonoBehaviour
     public GameObject JumpScarImg;
 
     public AudioSource audioSource;
-
+    public AudioSource hall;
     
     void Start()
     {
@@ -23,6 +23,7 @@ public class JumpScare : MonoBehaviour
             JumpScarImg.SetActive(true);
             audioSource.Play();
             StartCoroutine(DisableImg());
+            hall.Play();
         }
     }
    
