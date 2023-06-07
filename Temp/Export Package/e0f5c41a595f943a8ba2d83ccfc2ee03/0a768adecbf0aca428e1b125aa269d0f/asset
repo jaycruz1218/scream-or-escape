@@ -1,0 +1,32 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Imageclear : MonoBehaviour
+{
+    public GameObject puzzleOnPlayer;
+    public GameObject Image;
+     public GameObject doorr;
+     public AudioSource look;
+    // Start is called before the first frame update
+    void Start()
+    {
+        Image.SetActive(false);
+    }
+
+  private void OnTriggerStay(Collider other) 
+    {
+
+        if(other.gameObject.tag == "Puzzle")
+        {
+
+             if(Input.GetKey(KeyCode.F))
+            {
+            puzzleOnPlayer.SetActive(false);
+            Image.SetActive(true);
+            doorr.SetActive(false);
+            look.Play();
+            }
+        }
+    }
+}
